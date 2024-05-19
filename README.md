@@ -108,6 +108,6 @@ We welcome contributions to this repository! If you have any improvements, fixes
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/MuhammadMoiz200099/Javascript-Updates/blob/main/LICENSE) file for more details.
 
 
-- - 
+- - -
 
 Stay updated with these resources to leverage the full potential of the latest JavaScript features! Happy coding! 🚀
