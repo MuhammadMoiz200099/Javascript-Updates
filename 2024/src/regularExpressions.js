@@ -36,21 +36,8 @@ GreekLetters.test('𐆊');
 // The v flag for regular expressions reached Stage 4 during 2023 and has been implemented 
 // in all major browsers, so it’s fully expected to be part of the ES2024 specification.
 
-
-
-
-
-
-
-
-
-
-// Regular Expression v flag
-// You might be familiar with the regular expression Unicode flag  (u flag), which lets you enable support 
-// for Unicode characters. The v flag is an extension of most of the capabilities of the u flag.
-
+// Extended Explanation
 // In addition to being mostly backward compatible with the u flag,  the v flag introduces these new features:
-
 
 // Intersection operator
 let txt = "ECMAScript ES 5 and ES 2015 revolutionized web development";

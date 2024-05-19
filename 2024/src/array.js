@@ -41,7 +41,6 @@ console.log(result) // [5, 1, 3, 4, 2]
 // - with()
 // This method returns a new array with the element at the given index replaced with the given value.
 // It accepts two parameters, index and value
-
 const arr = [1, 2, 3, 4, 5, 6];
 console.log(arr.with(4, 10)); // [1, 2, 3, 4, 10, 6]
 
