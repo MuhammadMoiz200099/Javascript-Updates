@@ -66,7 +66,6 @@ The Promise.withResolvers() method simplifies the creation of promises by return
   const { promise, resolve, reject } = Promise.withResolvers();
 ```
 
-
 ### Array Methods
 
 New array methods make it easier to locate the last occurrence of an element that meets a specific condition in an array.
@@ -76,6 +75,23 @@ New array methods make it easier to locate the last occurrence of an element tha
 - toSorted()
 - toReversed()
 - with()
+
+#### Example
+```
+  const arr = [10, 20, 30, 80, 10];
+
+  arr.findLast(item => item > 10);
+
+  arr.findLastIndex(item => item > 10);
+
+  arr.toSpliced(1, 2, 80, 90, 100);
+
+  arr.toSorted();
+
+  arr.toReversed();
+
+  console.log(arr.with(4, 10));
+```
 
 ## References
 
@@ -92,6 +108,6 @@ We welcome contributions to this repository! If you have any improvements, fixes
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/MuhammadMoiz200099/Javascript-Updates/blob/main/LICENSE) file for more details.
 
 
-- - - -
+- - 
 
 Stay updated with these resources to leverage the full potential of the latest JavaScript features! Happy coding! 🚀
