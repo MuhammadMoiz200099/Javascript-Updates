@@ -1,0 +1,26 @@
+{
+  "name": "2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pipelineOperator.js",
+  "scripts": {
+    "start:temporal": "node ./src/temporal.js",
+    "start:pipeline": "node ./src/pipelineOperator.js",
+    "start:array": "node ./src/array.js",
+    "start:promise": "node ./src/promise.js",
+    "start:tuple": "node ./src/recordsTuples.js",
+    "start:regular": "node ./src/regularExpressions.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/plugin-proposal-pipeline-operator": "^7.24.1",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-typescript": "^7.24.1",
+    "prettier": "^3.2.5"
+  }
+}
