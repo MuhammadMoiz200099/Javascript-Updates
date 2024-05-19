@@ -15,6 +15,12 @@ Welcome to the repository highlighting the latest updates in JavaScript for 2024
 
 The Temporal API introduces a more powerful and flexible way to handle dates and times. It addresses many of the limitations and quirks of the existing Date object, making it easier to perform date manipulations and time zone conversions.
 
+#### Example
+```
+  const now = Temporal.Now.plainDateTimeISO();
+  console.log(now.toString()); // "2024-05-19T13:00:00"
+```
+
 ### Pipe Operator
 
 The pipe operator (|>) enhances code readability by allowing a left-to-right composition of functions. This helps in reducing nested function calls, making the code more maintainable.
